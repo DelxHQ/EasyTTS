@@ -10,7 +10,8 @@ RUN apk add --no-cache \
     python3 \
     ffmpeg \
     libtool \
-    autoconf
+    autoconf \
+    automake
 
 WORKDIR /bot
 
