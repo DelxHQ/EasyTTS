@@ -20,4 +20,4 @@ jobs:
     - name: Build the EasyTTS Docker image
       run: |
         docker build . --tag ghcr.io/delxhq/easytts:latest
-        docker push ghcr.io/jonashackt/easytts:latest
+        docker push ghcr.io/delxhq/easytts:latest
