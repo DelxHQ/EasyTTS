@@ -9,7 +9,8 @@ RUN apk add --no-cache \
     giflib-dev \
     python3 \
     ffmpeg \
-    libtool
+    libtool \
+    autoconf
 
 WORKDIR /bot
 
