@@ -8,7 +8,8 @@ RUN apk add --no-cache \
     pango-dev \
     giflib-dev \
     python3 \
-    ffmpeg
+    ffmpeg \
+    libtool
 
 WORKDIR /bot
 
