@@ -22,7 +22,7 @@ client.on('messageCreate', async message => {
   const res = await fetch(TTS_URL, {
     method: 'post',
     body: JSON.stringify({
-      voice: 'Ivy',
+      voice: 'Justin',
       text: message.content
     }),
     headers: {'Content-Type': 'application/json'}
